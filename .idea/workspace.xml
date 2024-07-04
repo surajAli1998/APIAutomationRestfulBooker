@@ -4,17 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b53ef64b-7fc4-411b-8d00-66d19b88b1ff" name="Changes" comment="" />
+    <list default="true" id="b53ef64b-7fc4-411b-8d00-66d19b88b1ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/endpoints/APIEndpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/actions/AssertAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/testCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/integration/testIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/utils/FakeValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2iiXMTGkonhNdhCjJHgx7SX1Mz4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,7 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,5 +62,16 @@
       <updated>1719974325859</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
