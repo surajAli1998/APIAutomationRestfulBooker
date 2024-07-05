@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b53ef64b-7fc4-411b-8d00-66d19b88b1ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/endpoints/APIEndpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/TokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/actions/AssertAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/testCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/integration/testIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/utils/FakeValues.java" afterDir="false" />
+    <list default="true" id="b53ef64b-7fc4-411b-8d00-66d19b88b1ff" name="Changes" comment="basic framework added">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiautomation/endpoints/APIEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/endpoints/APIEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/actions/AssertAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/actions/AssertAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/testCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/TestCreateBooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2iiXMTGkonhNdhCjJHgx7SX1Mz4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,9 +48,58 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.TestCreateBooking">
+    <configuration name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testCRUD.xml" type="TestNG" nameIsGenerated="true">
+      <module name="APIAutomationRestfulBooker" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testCRUD.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestfulBooker" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCreateBooking" type="TestNG" nameIsGenerated="true">
+      <module name="APIAutomationRestfulBooker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apiautomation.tests.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apiautomation.tests.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.apiautomation.tests.crud.TestCreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>
