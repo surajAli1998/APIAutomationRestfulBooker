@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.079">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateBooking"
+                time="0.072"
+                classname="com.apiautomation.tests.integration.testIntegration">
+            </testcase>
+            <testcase
+                name="testUpdateBookingById"
+                time="0.001"
+                classname="com.apiautomation.tests.integration.testIntegration">
+            </testcase>
+            <testcase
+                name="testVerifyBookingId"
+                time="0.004"
+                classname="com.apiautomation.tests.integration.testIntegration">
+            </testcase>
+            <testcase
+                name="testDeleteBookingById"
+                time="0.002"
+                classname="com.apiautomation.tests.integration.testIntegration">
+            </testcase>
+</testsuite>

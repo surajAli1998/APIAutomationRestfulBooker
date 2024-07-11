@@ -28,8 +28,8 @@ public class BookingData {
         return totalprice;
     }
 
-    public void setTotalPrice(Integer totalPrice) {
-        this.totalprice = totalPrice;
+    public void setTotalPrice(Integer totalprice) {
+        this.totalprice = totalprice;
     }
 
     public Boolean getDepositpaid() {
@@ -44,8 +44,8 @@ public class BookingData {
         return bookingdates;
     }
 
-    public void setBookingDates(BookingDates bookingDates) {
-        this.bookingdates = bookingDates;
+    public void setBookingDates(BookingDates bookingdates) {
+        this.bookingdates = bookingdates;
     }
 
     public String getAdditionalneeds() {
@@ -58,12 +58,12 @@ public class BookingData {
 
     @Override
     public String toString() {
-        return "BookingData{" +
+        return "Booking{" +
                 "firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
-                ", totalPrice=" + totalprice +
+                ", totalprice=" + totalprice +
                 ", depositpaid=" + depositpaid +
-                ", bookingDates=" + bookingdates +
+                ", bookingdates=" + bookingdates +
                 ", additionalneeds='" + additionalneeds + '\'' +
                 '}';
     }

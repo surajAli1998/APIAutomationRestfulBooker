@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomationRestfulBooker"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.260">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createToken"
+                time="3.260"
+                classname="com.apiautomation.tests.crud.TestCreateAuthToken">
+            </testcase>
+</testsuite>
