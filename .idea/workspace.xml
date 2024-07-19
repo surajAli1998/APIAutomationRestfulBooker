@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b53ef64b-7fc4-411b-8d00-66d19b88b1ff" name="Changes" comment="basic framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/TestCreateAuthToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/TestGetAllBookingIds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/TestGetBookingForABookingId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/utils/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/BookingData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/actions/AssertAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/actions/AssertAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/TestCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/crud/TestCreateBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/integration/testIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/integration/testIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.apiautomation.tests.crud.TestCreateBooking_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.apiautomation.tests.crud.TestCreateBooking_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.apiautomation.tests.integration.testIntegration_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.apiautomation.tests.integration.testIntegration_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

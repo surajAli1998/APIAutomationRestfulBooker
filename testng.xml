@@ -3,8 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker">
         <classes>
-            <class name="com.apiautomation.tests.integration.testIntegration">
-            </class>
+            <class name="com.apiautomation.tests.integration.testIntegration"> </class>
         </classes>
     </test>
 </suite>
+
