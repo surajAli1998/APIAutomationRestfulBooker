@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b53ef64b-7fc4-411b-8d00-66d19b88b1ff" name="Changes" comment="basic framework added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/pojos/VWOLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/ddt/VWOLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_ddt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiautomation/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/integration/testIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apiautomation/tests/integration/testIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/xml/com.apiautomation.tests.integration.testIntegration_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.apiautomation.tests.integration.testIntegration_results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +56,28 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng.xml">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TheTestingAcademy\ATB6X\ApiTesting\APIAutomationRestfulBooker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TheTestingAcademy\ATB6X\ApiTesting\APIAutomationRestfulBooker\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng_ddt.xml">
     <configuration name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testCRUD.xml" type="TestNG" nameIsGenerated="true">
       <module name="APIAutomationRestfulBooker" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testCRUD.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng_ddt.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestfulBooker" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_ddt.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -72,23 +89,6 @@
       <module name="APIAutomationRestfulBooker" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCreateAuthToken" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APIAutomationRestfulBooker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.apiautomation.tests.crud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.apiautomation.tests.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.apiautomation.tests.crud.TestCreateAuthToken" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,12 +146,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VWOLogin.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationRestfulBooker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apiautomation.tests.ddt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apiautomation.tests.ddt" />
+      <option name="MAIN_CLASS_NAME" value="com.apiautomation.tests.ddt.VWOLogin" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng_ddt.xml" />
+        <item itemvalue="TestNG.VWOLogin.testLogin" />
         <item itemvalue="TestNG.D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker/testng.xml" />
         <item itemvalue="TestNG.TestGetBookingForABookingId" />
         <item itemvalue="TestNG.TestGetAllBookingIds" />
-        <item itemvalue="TestNG.TestCreateAuthToken" />
       </list>
     </recent_temporary>
   </component>

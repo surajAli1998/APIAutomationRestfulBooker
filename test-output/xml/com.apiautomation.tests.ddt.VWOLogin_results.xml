@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/TheTestingAcademy/ATB6X/ApiTesting/APIAutomationRestfulBooker"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.351">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testLogin"
+                time="3.351"
+                classname="com.apiautomation.tests.ddt.VWOLogin">
+            </testcase>
+</testsuite>
