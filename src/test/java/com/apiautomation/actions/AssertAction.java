@@ -17,7 +17,6 @@ public class AssertAction {
         Assert.assertEquals(actual,expected,description);
     }
     public void verifyInvalidStatusCode(Response response){
-        Assert.assertTrue(String.valueOf(response.statusCode())
-                .startsWith("20"), "The status code is: " + response.statusCode());
+        Assert.assertEquals(String.valueOf(response.statusCode()), "200", "The status code is: " + response.statusCode());
     }
 }

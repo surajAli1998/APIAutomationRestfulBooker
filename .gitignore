@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+/test-output/
+/.idea/
+/allure-results/
+/test-output/html/
+/test-output/xml/
